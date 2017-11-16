@@ -1,6 +1,7 @@
 
 .globalnav
   .globalnav__icon
+    %img{alt: "logo", src: "assets/logo.png"}
   .globalnav__search
   .globalnav__list
     %li
@@ -13,28 +14,38 @@
       = link_to 'Log In'
 .menubar
   .menubar__filter
-    .menubar__filter__btn
-      %button Dates
-    .menubar__filter__btn
-      %button Guests
-    .menubar__filter__btn
-      %button Room Type
-    .menubar__filter__btn
-      %button Price
-    .menubar__filter__btn
-      %button Instant Book
-    .menubar__filter__btn
-      %button More filters
+    / .menubar__filter__btn
+    /   %button Dates
+    / .menubar__filter__btn
+    /   %button Guests
+    / .menubar__filter__btn
+    /   %button Room Type
+    / .menubar__filter__btn
+    /   %button Price
+    / .menubar__filter__btn
+    /   %button Instant Book
+    / .menubar__filter__btn
+    /   %button More filters
 .main
   .main__left
     .main__left__room
       .main__left__room-upper
+        %img{alt: "logo", src: "assets/host1.png"}
       .main__left__room-lower
+        %img{alt: "logo", src: "assets/hostdetail.png"}
 
     %br
     .main__left__room
       .main__left__room-upper
+        %img{alt: "logo", src: "assets/host1.png"}
       .main__left__room-lower
+        %img{alt: "logo", src: "assets/hostdetail.png"}
+    %br
+    .main__left__room
+      .main__left__room-upper
+        %img{alt: "logo", src: "assets/host1.png"}
+      .main__left__room-lower
+        %img{alt: "logo", src: "assets/hostdetail.png"}
 
     .main__left__bottom
       .main__left__bottom-pagemenu
@@ -42,4 +53,6 @@
         %p Enter dates to see full pricing. Additional fees apply. Taxes may be added.
 
   .main__right
-    %P map
+    %img{alt: "logo", src: "assets/map.png"}
+
+
