@@ -1,17 +1,19 @@
 
 .globalnav
   .globalnav__icon
-    %img{alt: "logo", src: "assets/logo.png"}
+    =link_to root_path do
+      %img{alt: "logo", src: "assets/logo.png"}
+
   .globalnav__search
   .globalnav__list
     %li
       = link_to 'Discover hosting', class: 'globalnav__list-btn'
     %li
-      = link_to 'Help'
+      = link_to 'Help', new_host_path
     %li
-      = link_to 'Sign Up'
+      = link_to 'Sign Up',new_user_registration_path
     %li
-      = link_to 'Log In'
+      = link_to 'Log In',new_user_session_path
 .menubar
   .menubar__filter
     / .menubar__filter__btn
