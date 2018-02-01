@@ -1,0 +1,40 @@
+.wrapper{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 0 60px 0;
+	.signupbox{
+		background-color: white;
+		height: 700px;
+		width: 565px;
+	    margin: auto;
+	    &__contents{
+	    	padding: 32px;
+	    }
+	}
+}
+
+h2{
+	font-weight: 700;
+	font-size: 24px;
+	color: #484848;
+}
+h3{
+	text-align: center;
+	color: #484848;
+}
+h4{
+	
+}
+input{
+	width: 500px;
+	height: 40px;
+}
+
+button{
+	width: 500px;
+	height: 60px;
+	background-color: #FF5A5F;
+	font-size: 19px;
+	color: white;
+}
